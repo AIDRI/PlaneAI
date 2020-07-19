@@ -1,0 +1,29 @@
+Attention : ce projet est un projet d'IA, mais souvenons nous que l'IA se base sur les maths.
+Il est donc autorisé de créer un projet se basant uniquement sur des maths, ou avec une partie
+d'IA, etc...
+
+Third part docs : 
+- Cette partie est relativement simple à comprendre, le principe est de détecter les lignes jaunes
+sur la piste d'atterissage, puis de les suivre pour arriver à une place de stationnement d'avion.
+On remarque que les pistes d'avions ont une ligne blanche en leur centre, d'où pars les différentes
+lignes jaunes que nous appeleront taxiways. 
+Ce projet ressemble en de nombreux points à un projet de self driving car.
+Cepandant, aucun simulateur ne nous permettant d'avoir un avion avec l'équipement nécessaire, 
+tel qu'un lidar, radar, gmu, gnss, et des satellites, nous nous baserons sur une caméra qui
+sera fixé à la vue pilote (ou au centre de l'avion, au choix). Pour éviter les collisions
+entre les avions, nous allons prétendre avoir un système permettant de guider les avions
+sur les taxiways, qui est la première partie du projet.
+Pour ce projet, nous prendrons pour modèle les pistes et les taxiways de l'aéroport
+Saint Exupéry à Lyon : https://www.google.com/url?sa=i&url=https%3A%2F%2Fthreadreaderapp.com%2Fthread%2F1057011706394800129.html&psig=AOvVaw33q0zKIjKbWP4hb-mjaOcV&ust=1595237457593000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiAlOKA2eoCFQAAAAAdAAAAABA2
+L'avion de test sera un Cesna 172 : voici une fiche avec ces caractéristiques utile : 
+Longueur : 8,28 m
+Envergure : 11 m
+Hauteur : 2,72 m
+Surface alaire : 16,2 m2
+Masse à vide : 744 kg
+Charge utile : 415 kg
+Masse maximale au décollage : 1 157 kg
+
+La gravité de l'aéroport : 9.81 m/s^2
+Ces données peuvent être utile pour déplacer l'avion en utilisant par exemple les formules pour le
+dynamic modeling.
