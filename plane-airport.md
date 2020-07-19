@@ -1,7 +1,7 @@
 Here, are some infos about the airport and the plane who we are using.
 
 For this project, we will use the runways and taxiways of the airport as a model.
-Saint Exupéry in Lyon: https://pbs.twimg.com/media/DqtGHnyVAAAXch6.jpg  
+Saint Exupéry in Lyon: <img src="https://pbs.twimg.com/media/DqtGHnyVAAAXch6.jpg"/>  
 
 The test aircraft will be a Cesna 172: here is a sheet with these useful characteristics:  
 Length: 8.28 meters  
