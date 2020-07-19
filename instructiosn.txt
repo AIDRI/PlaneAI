@@ -1,0 +1,13 @@
+The project is very simple to understand: it is divided into three points.
+.
+1 - This is the first part of the project: finding the best flight parameters. This part aims to create an AI that proposes the best flight parameters, the best approaches. It is an ambitious and relatively complex project because it takes many parameters, but it is achievable. 
+If this part is completed, the logical next step would be to create a system to link all the aircraft in the simulator to adapt their altitude, manage the runways, etc...
+
+2 - This is the second part of the project: landing on a runway automatically. Don't worry about whether the runways are free or not (just look upstream so that nobody takes off), but your mission will be to land an aircraft: so detecting the runway, then adapting the altitude and the trajectory. This part can be hard for a beginner, but easy for someone who knows how to do it.
+
+3 - This is the third part of the project: following the taxiways. This project should allow the plane to find a yellow line and follow it at a speed approaching 20mph. You will then have to park the plane in some place, the best would be at the end of a yellow line, i.e. at a parking space. This project can again be difficult for a beginner but easy for an advanced person. The biggest challenge must certainly be to find the taxiways. Following them can be quite simple
+For more information, register in a party with a member with a rank as detailed above.
+
+
+PS : If you use a simulator, I think the better idea is using the Cesna 172. 
+PS: Don't modify the game files (I'm not responsible in case of ban, call to order, etc...), because I don't want to be responsible for any call to order from the game publisher. Creating a macro for example and modifying your keyboard keys as best as possible is certainly the best idea.
