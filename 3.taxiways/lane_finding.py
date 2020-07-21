@@ -65,7 +65,7 @@ def draw_lines(image, lines, list_angle, right, right_it, left, left_it, up, up_
 
 
 list_angle = []
-img = cv2.imread("two_lines.png")
+img = cv2.imread("data/two_lines.png")
 img = crop(img)
 yellow_img = select_rgb_yellow(img)
 gray_img = convert_gray(yellow_img)
