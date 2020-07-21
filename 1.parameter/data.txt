@@ -3,14 +3,14 @@
 1 cm = 279.72028 meters
 
 Runway to keypoints :
-R -> A : 0.4 cm = 111.888112 meters
-R -> B : 0.7 cm = 195.804196 meters
-R -> C : 1.1 cm = 307.692308 meters
-R -> D : 1.15 cm = 321.678322 meters
-R -> E : 1.2 cm = 335.664336 meters
-R -> F : 1.2 cm = 335.664336 meters
-R -> G : 1.2 cm = 335.664336 meters
-R -> H : 1.2 cm = 335.664336 meters
+R1 -> A : 0.4 cm = 111.888112 meters
+R2 -> B : 0.7 cm = 195.804196 meters
+R3 -> C : 1.1 cm = 307.692308 meters
+R4 -> D : 1.15 cm = 321.678322 meters
+R5 -> E : 1.2 cm = 335.664336 meters
+R6 -> F : 1.2 cm = 335.664336 meters
+R7 -> G : 1.2 cm = 335.664336 meters
+R8 -> H : 1.2 cm = 335.664336 meters
 
 Keypoint to keypoint :
 A -> B : 1.2 cm = 335.664336 meters
