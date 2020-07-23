@@ -24,13 +24,14 @@ def detect_edges(image, low_threshold=40, high_threshold=150):
 
 
 def hough_lines(image):
-    return cv2.HoughLinesP(image, rho=1, theta=np.pi/180, threshold=30, minLineLength=50, maxLineGap=200)
+    return cv2.HoughLinesP(image, rho=1, theta=np.pi/180, threshold=100, minLineLength=50, maxLineGap=200)
 
 
 def delete_h(lines, new_lines):
 	for line in lines:
+	    print(line)
 	    for x1,y1,x2,y2 in line:
-	    	if (y2 - y1 > 200 or y1 - y2 > 200) and x2 - x1 < 150 and x2 - x1 > -150:
+	    	if (y2 - y1 > 200 or y1 - y2 > 200) and x2 - x1 < 300 and x2 - x1 > -300:
 	    		new_lines.append(line)
 	    		print(line)
 	return new_lines
@@ -39,7 +40,6 @@ def delete_h(lines, new_lines):
 def draw_lines(image, lines, color=[0, 0, 255], thickness=3):
 	for line in lines:
 		for x1,y1,x2,y2 in line:
-			print(line)
 			cv2.line(image, (x1, y1), (x2, y2), color, thickness)
 	return image
 
@@ -47,8 +47,8 @@ def draw_lines(image, lines, color=[0, 0, 255], thickness=3):
 new_lines = []
 image = dilation(img)
 image = threshold(image)
-imag = detect_edges(image)
-image = convolution_op(imag, image)
+image = detect_edges(image)
+#image = convolution_op(imag, image)
 lines = hough_lines(image)
 lines = delete_h(lines, new_lines)
 image = draw_lines(img, lines)
