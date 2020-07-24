@@ -9,3 +9,5 @@
 - Change the path of the image (on line 62), like : data/my_personal_image.jpg  
 
 ## Done / to be done :  
+
+[x]
