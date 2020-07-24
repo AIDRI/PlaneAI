@@ -10,4 +10,8 @@
 
 ## Done / to be done :  
 
-[x]
+- [x] Detect lines  
+- [x] Detect differents ways : right, up, left  
+- [x] Compute the angle required for the aircraft to turn  
+- [] Determining the route to the boarding gate  
+- [] Differentiating the different intersections  
