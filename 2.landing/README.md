@@ -1,7 +1,7 @@
 ## Run the project :  
 - Download the project, and go to the folder ../PlaneAI-master/2.landing/  
 - Make sur you have Python >= 3.5  
-- Make sur you have opencv-python, numpy, pillow.  
+- Make sur you have opencv-python, numpy, matplotlib.  
 - Open a terminal and run the script runway_finding.py.  
 
 ## With your own file :  
