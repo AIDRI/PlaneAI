@@ -1,0 +1,40 @@
+4000 m
+14.3 cm
+1 cm = 279.72028 meters
+21 keys
+
+Runway to keypoints :
+R1 -> A : 0.4 cm = 112 meters
+R2 -> B : 0.7 cm = 196 meters
+R3 -> C : 1.1 cm = 308 meters
+R4 -> D : 1.15 cm = 322 meters
+R5 -> E : 1.2 cm = 336 meters
+R6 -> F : 1.2 cm = 336 meters
+R7 -> G : 1.2 cm = 336 meters
+R8 -> H : 1.2 cm = 336 meters
+
+Keypoint to keypoint :
+A -> B : 1.2 cm = 336 meters
+B -> C : 2.6 cm = 727 meters
+C -> D : 2.9 cm = 811 meters
+D -> E : 2.3 cm = 643 meters
+E -> F : 1.7 cm = 476 meters
+F -> G : 1.4 cm = 392 meters
+G -> H : 2.2 cm = 615 meters
+
+Keypoint to terminal :
+D -> P0 : 0.3 cm = 84 meters
+D -> P1 : 2.7 cm = 755 meters
+D -> P2 : 3.4 cm = 951 meters
+D -> P3 : 5.7 cm = 1594 meters
+D -> P4 : 7.0 cm = 1958 meters
+E -> P1 : 1.5 cm = 420 meters
+E -> P2 : 1.9 cm = 531 meters
+E -> P3 : 3.9 cm = 1091 meters
+E -> P4 : 5.0 cm = 1399 meters
+F -> P2 : 1.1 cm = 308 meters
+F -> P3 : 2.3 cm = 643 meters
+F -> P4 : 3.4 cm = 951 meters
+G -> P3 : 1.5 cm = 420 meters
+G -> P4 : 2.1 cm = 587 meters
+H -> P4 : 0.2 cm = 56 meters
