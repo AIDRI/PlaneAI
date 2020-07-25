@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread('runway_1.jpg', 0)
+img = cv2.imread('data/runway_1.jpg', 0)
 
 
 def dilation(img):
